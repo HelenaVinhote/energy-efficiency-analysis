@@ -69,7 +69,6 @@ Nesta seção são apresentados os resultados obtidos durante a implementação 
 
 Os resultados permitem analisar a capacidade do modelo de representar a relação entre as variáveis selecionadas e estimar a carga térmica de aquecimento dos edifícios.
 
-
 ## Autores
 
 Projeto desenvolvido em colaboração como atividade acadêmica da disciplina de Probabilidade e Estatística.
