@@ -20,6 +20,7 @@ Foi utilizado o conjunto de dados **Energy Efficiency**, disponibilizado pelo UC
 A base apresenta informações sobre características construtivas de edifícios e suas respectivas cargas térmicas.
 
 **Características do conjunto de dados:**
+
 - 768 observações;
 - 10 variáveis;
 - 8 variáveis de entrada;
