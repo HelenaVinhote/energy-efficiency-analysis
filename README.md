@@ -1,79 +1,71 @@
-
-# Building Heating Load Prediction
+# Previsão da Carga Térmica de Aquecimento de Edifícios
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
 </p>
 
-## About the Project
+## Sobre o projeto
 
-This project investigates the relationship between the physical characteristics of buildings and their heating energy requirements through **Simple Linear Regression**.
+Este projeto tem como objetivo analisar a relação entre as características físicas de edifícios e sua necessidade de aquecimento, utilizando conceitos de Probabilidade e Estatística e técnicas de Aprendizado de Máquina.
 
-The main objective is to develop a statistical model capable of estimating the heating load of buildings based on their total height, exploring the application of statistical methods and supervised machine learning.
+A análise utiliza o algoritmo de **Regressão Linear Simples** para investigar a relação entre a altura total de uma edificação e sua carga térmica de aquecimento, buscando estimar valores a partir dos dados disponíveis.
 
-## Dataset
+## Base de dados
 
-The project uses the **Energy Efficiency Dataset**, available through the UCI Machine Learning Repository.
+Foi utilizado o conjunto de dados **Energy Efficiency**, disponibilizado pelo UCI Machine Learning Repository.
 
-Dataset characteristics:
+A base apresenta informações sobre características construtivas de edifícios e suas respectivas cargas térmicas.
 
-- **768 observations**
-- **10 variables**
-- **8 input variables**
-- **2 output variables**
+**Características do conjunto de dados:**
+- 768 observações;
+- 10 variáveis;
+- 8 variáveis de entrada;
+- 2 variáveis de saída.
 
-Dataset source: [UCI Machine Learning Repository – Energy Efficiency](https://archive.ics.uci.edu/dataset/242/energy+efficiency)
+Fonte: [UCI Machine Learning Repository – Energy Efficiency](https://archive.ics.uci.edu/dataset/242/energy+efficiency)
 
-## Variables Selected
+## Variáveis utilizadas
 
-The analysis focuses on two variables:
+Para a implementação da Regressão Linear Simples, foram selecionadas duas variáveis:
 
-| Variable | Description | Role |
+| Variável | Descrição | Função |
 |---|---|---|
-| X5 | Overall Height | Independent Variable (X) |
-| Y1 | Heating Load | Dependent Variable (Y) |
+| X5 | Altura total do edifício | Variável independente |
+| Y1 | Carga térmica de aquecimento | Variável dependente |
 
-## Methodology
+## Metodologia
 
-The project follows these main steps:
+O desenvolvimento do projeto foi dividido nas seguintes etapas:
 
-1. **Data Exploration:** Understanding the dataset and its variables.
-2. **Data Preparation:** Selecting the variables required for the analysis.
-3. **Train-Test Split:** Dividing the dataset into training (80%) and testing (20%) sets.
-4. **Model Implementation:** Applying Simple Linear Regression using Scikit-learn.
-5. **Model Evaluation:** Comparing actual and predicted values using evaluation metrics.
+1. **Importação dos dados:** obtenção do conjunto de dados Energy Efficiency.
+2. **Análise exploratória:** investigação da distribuição da carga térmica e das correlações entre as variáveis.
+3. **Seleção das variáveis:** escolha da altura total (X5) e da carga térmica de aquecimento (Y1).
+4. **Divisão dos dados:** separação em conjuntos de treinamento (80%) e teste (20%).
+5. **Implementação do modelo:** aplicação da Regressão Linear Simples utilizando Scikit-learn.
+6. **Avaliação:** análise do desempenho do modelo por meio de métricas estatísticas.
 
-## Technologies and Tools
+## Tecnologias e ferramentas
 
 - Python
-- Google Colab / Jupyter Notebook
+- Google Colab
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
+- UCI Machine Learning Repository
 
-## Results and Analysis
+## Resultados e análise
 
-This section presents the results obtained from the regression model, including:
+Nesta seção são apresentados os resultados obtidos durante a implementação do modelo, incluindo:
 
-- Estimated regression equation.
-- Scatter plot and regression line.
-- Comparison between actual and predicted values.
-- Model evaluation using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+- Equação estimada da reta de regressão;
+- Gráfico de dispersão e reta de regressão;
+- Comparação entre valores reais e previstos;
+- Análise dos resíduos;
+- Avaliação do modelo utilizando as métricas MAE, RMSE e R².
 
+Os resultados permitem analisar a capacidade do modelo de representar a relação entre as variáveis selecionadas e estimar a carga térmica de aquecimento dos edifícios.
 
-## Authors
-
-This project was developed collaboratively as part of the Probability and Statistics course.
-
-<!-- Add the contributors' GitHub profiles here -->
-
-- [Estefane Tainá Pallaro](https://github.com/estefanepallaro)
-- [Gustavo Augusto Guimarães de Azevedo](https://github.com/gustavoguimaraes1)
-- [Helena Vinhote Dias](https://github.com/HelenaVinhote)
-
-## Academic Context
-
-Developed as an academic project for the Probability and Statistics course, exploring the application of linear regression in building energy efficiency analysis.
+##
