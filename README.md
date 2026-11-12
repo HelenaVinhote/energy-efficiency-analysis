@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  
 </p>
 
 ## Sobre o projeto
@@ -68,4 +69,15 @@ Nesta seção são apresentados os resultados obtidos durante a implementação 
 
 Os resultados permitem analisar a capacidade do modelo de representar a relação entre as variáveis selecionadas e estimar a carga térmica de aquecimento dos edifícios.
 
-##
+
+## Autores
+
+Projeto desenvolvido em colaboração como atividade acadêmica da disciplina de Probabilidade e Estatística.
+
+- [Estefane Tainá Pallaro](https://github.com/estefanepallaro)
+- [Gustavo Augusto Guimarães de Azevedo](https://github.com/gustavoguimaraes1)
+- [Helena Vinhote Dias](https://github.com/HelenaDias)
+
+## Contexto acadêmico
+
+Trabalho desenvolvido com o propósito de aplicar conceitos estatísticos na análise de dados e compreender a utilização da Regressão Linear Simples em problemas relacionados à eficiência energética de edificações.
