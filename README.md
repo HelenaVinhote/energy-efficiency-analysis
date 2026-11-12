@@ -63,28 +63,6 @@ This section presents the results obtained from the regression model, including:
 - Comparison between actual and predicted values.
 - Model evaluation using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
-*Results and visualizations will be added after the model implementation.*
-
-## Repository Structure
-
-```text
-building-heating-load-prediction/
-│
-├── data/
-│   └── energy_efficiency.csv
-│
-├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   └── simple_linear_regression.ipynb
-│
-├── images/
-│   └── results/
-│
-├── results/
-│
-├── README.md
-└── requirements.txt
-```
 
 ## Authors
 
