@@ -76,7 +76,7 @@ Projeto desenvolvido em colaboração como atividade acadêmica da disciplina de
 
 - [Estefane Tainá Pallaro](https://github.com/estefanepallaro)
 - [Gustavo Augusto Guimarães de Azevedo](https://github.com/gustavoguimaraes1)
-- [Helena Vinhote Dias](https://github.com/HelenaDias)
+- [Helena Vinhote Dias](https://github.com/HelenaVinhote)
 
 ## Contexto acadêmico
 
